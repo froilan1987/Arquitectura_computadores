@@ -1,0 +1,22 @@
+/*
+ sumas sucesivas
+ */
+package arquitectura;
+
+/**
+ *
+ * @author froilan
+ */
+public class Principal {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        multiplicacion mult = new multiplicacion(a, b);
+        System.out.println(a+" * "+b+" = "+mult.getRes());
+    }
+    
+}
