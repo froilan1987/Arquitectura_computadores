@@ -1,0 +1,25 @@
+int main
+	int i=15;
+	int b[3]=33;
+if(b[3]-145)>1){
+	return 4+i;
+}
+else{
+	return i;
+}
+i = L0
+b = L1
+	MAIN
+0x0000 MOV 15 %L0
+0x0004 LD L1 +(3*4), %L3
+0x0008 SUB %L3 145 %L4
+0x000c CMP %L4 1
+OXOO10 BL a ELSE
+0X0014 ADD 4 %L0 %L0
+0X0018 BA A EXIT
+	ELSE
+0X001C LOAD %LO %G0
+	EXIT
+0X0024 NOP
+
+00
