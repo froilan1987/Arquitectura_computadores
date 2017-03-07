@@ -1,0 +1,20 @@
+	int test(int a, int b, int c){
+		return a+b-c;
+	}
+
+	int main(){
+		int a = -2897415;
+		unt b = 345;
+		int c;
+		int y = 845963;
+
+		c = y -4150000;
+		y = a-b+c;
+
+		if(y == 4587956)
+			c = y - 3456879;
+		else
+			int z = 25005478 + y;
+
+		return (2564 + y - b)+ test(a,b,c);
+	}
