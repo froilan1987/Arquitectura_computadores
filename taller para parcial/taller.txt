@@ -2,11 +2,13 @@ Int test(int a, int b, int c){
 if(a!=b){
 c=a+b;
 }
+
 Else {
 c= a-b;
 }
 Return c;
 }
+
 Int main(){
 Int x = 0;
 Int y = 5;
@@ -23,8 +25,14 @@ C Z = L2
    TEST
 1  0X0000 CMP %L0 %L1
 2  0X0004 BE A ELSE
-3  0X0008 AND %L0 %L1 %L2
-
+3  0X0008 JMPL %O0 8 %G0
+4  0X000C AND %L0 %L1 %L2
 
    ELSE
-
+5  0X0010 JMPL %O0 8 %G0
+6  0X0014 SUB %L0 %L1 %L2
+   MAIN
+7  0X0018 MOV 0 %L0
+8  0X001C MOV 5 %L1
+9  0X0014 MOV 6 %L2
+10 0X0018
