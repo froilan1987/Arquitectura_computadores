@@ -1,0 +1,23 @@
+Int test(int a, int b, int c){
+if(a!=b){
+c=a+b;
+}
+Else {
+c= a-b;
+}
+Return c;
+}
+Int main(){
+Int x = 0;
+Int y = 5;
+Int z = 6;
+X = test(y,z);
+Return x;
+}
+
+REGISTROS
+A X = L0
+B Y = L1
+C Z = L2
+
+
