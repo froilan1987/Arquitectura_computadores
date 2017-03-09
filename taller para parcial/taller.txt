@@ -20,4 +20,11 @@ A X = L0
 B Y = L1
 C Z = L2
 
+   TEST
+1  0X0000 CMP %L0 %L1
+2  0X0004 BE A ELSE
+3  0X0008 AND %L0 %L1 %L2
+
+
+   ELSE
 
