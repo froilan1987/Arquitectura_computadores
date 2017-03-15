@@ -57,7 +57,31 @@ z = a - b + c*4;
 return z + 2;
 }
 int main(){
-int p = 4, y = 2, c = -65874;
+int p = 4,
+y = 2,
+c = -65874;
 int x = test(p,y,c);
 return x + 45;
 }
+A = I0
+B = I1
+C = I2
+Z = L0
+X = L1
+
+   TEST
+1  0x0000 MOV 0 %L0
+
+2  0X0004 SUB %I0 %I1 %I0
+3  0X0008 SLL %I2 4 %I2
+4  0X000C ADD %I0 %I2 %L0 
+5  0X0010 JPL %O7 8 %G0
+6  0X0014 ADD %L0 2 %O0
+   MAIN
+7  0X0018 MOV 4 %I0
+8  0X001C MOV 2 %I2
+9  0X0010 SETHI 4194240 %I2
+10 0X0014 OR %I2 339 %I2
+11 0X0018 CALL TEST
+12 0X002C MOV 0 %L1
+13 0X000
