@@ -12,8 +12,8 @@ AR uc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd sub00/vhpl11 
 EN uc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd sub00/vhpl10 1492241041
 EN npc NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd sub00/vhpl00 1491522876
 EN mux NULL E:/Usuario/Documentos/Xilinx/Procesador2/MUX.vhd sub00/vhpl16 1492325485
-AR alu behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd sub00/vhpl13 1492242117
+AR alu behavioral E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd sub00/vhpl13 1492496999
 AR pc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd sub00/vhpl03 1491869039
 EN sumador NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd sub00/vhpl04 1491868863
 AR rf behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.vhd sub00/vhpl07 1492231773
-EN alu NULL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd sub00/vhpl12 1492242116
+EN alu NULL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd sub00/vhpl12 1492496998

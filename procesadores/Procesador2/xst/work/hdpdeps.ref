@@ -1,11 +1,6 @@
-V3 32
+V3 33
 FL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd 2017/04/04.19:40:45 P.20131013
 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd 2017/04/15.02:41:36 P.20131013
-EN work/ALU 1492242116 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
-AR work/ALU/Behavioral 1492242117 \
-      FL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd EN work/ALU 1492242116
 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd 2017/04/15.14:34:21 P.20131013
 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd 2017/04/04.19:40:45 P.20131013
 EN work/NPC 1491522876 FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd \
@@ -50,6 +45,15 @@ EN work/SEU 1492288587 FL E:/Usuario/Documentos/Xilinx/Procesador2/SEU.vhd \
       PB ieee/std_logic_1164 1381692176
 AR work/SEU/Behavioral 1492288588 \
       FL E:/Usuario/Documentos/Xilinx/Procesador2/SEU.vhd EN work/SEU 1492288587
+FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd 2017/04/15.02:41:36 P.20131013
+EN work/ALU 1492496998 \
+      FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/ALU/Behavioral 1492496999 \
+      FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd \
+      EN work/ALU 1492496998
+FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd 2017/04/18.01:29:40 P.20131013
 EN work/procesador_2 0 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd \
       PB ieee/std_logic_1164 1381692176

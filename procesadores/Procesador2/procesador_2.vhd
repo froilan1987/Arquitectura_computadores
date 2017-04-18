@@ -37,6 +37,16 @@ end procesador_2;
 
 architecture arquitectura_procesador_2 of procesador_2 is
 
+-- ALU
+COMPONENT ALU
+	PORT(
+		rs1 : IN std_logic_vector(31 downto 0);
+		rs2 : IN std_logic_vector(31 downto 0);
+		entrada : IN std_logic_vector(5 downto 0);          
+		salida : OUT std_logic_vector(31 downto 0)
+		);
+	END COMPONENT;
+
 
 -- SEU
 COMPONENT SEU
@@ -133,6 +143,17 @@ signal UC_ALU : STD_LOGIC_VECTOR (5 downto 0);
 
 
 begin
+
+	s_procesador_2 <= ALU_RF;
+
+--ALU
+	Inst_ALU: ALU PORT MAP(
+		rs1 => RF_ALU,
+		rs2 => MUX_ALU,
+		entrada => UC_ALU,
+		salida => ALU_RF
+	);
+
 
 --SEU
 Inst_SEU: SEU PORT MAP(
