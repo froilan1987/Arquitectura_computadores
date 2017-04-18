@@ -180,7 +180,7 @@ Inst_RF: RF PORT MAP(
 	);
 -- UC
 Inst_UC: UC PORT MAP(
-		op => IM_UC_RF_SEU(31 downto 33),
+		op => IM_UC_RF_SEU(31 downto 30),
 		op3 => IM_UC_RF_SEU(24 downto 19),
 		salida => UC_ALU
 	);
@@ -209,7 +209,7 @@ Inst_NPC: NPC PORT MAP(
 --sumador
 Inst_SUMADOR: SUMADOR PORT MAP(
 		entrada1 => x"00000001",
-		entrada2 => NPC_PC,
+		entrada2 => PC_IM,
 		salida => SUMADOR_NPC
 	);
 
