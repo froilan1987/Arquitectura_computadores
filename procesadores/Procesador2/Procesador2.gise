@@ -303,14 +303,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1492497591" xil_pn:in_ck="-2674149547674443935" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2835831979412966972" xil_pn:start_ts="1492497567">
+    <transform xil_pn:end_ts="1492497806" xil_pn:in_ck="-2674149547674443935" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2835831979412966972" xil_pn:start_ts="1492497780">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="ALU.ngr"/>
       <outfile xil_pn:name="IM.ngr"/>
