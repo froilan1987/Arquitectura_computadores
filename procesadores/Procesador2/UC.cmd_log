@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.syr" 
+vhdtdtfi -prj Procesador2 -o E:/utp/Arquitectura_computadores/procesadores/Procesador2/UC.vhi -module UC -template E:/jgins/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work UC.vhd 

@@ -37,6 +37,16 @@ end procesador_2;
 
 architecture arquitectura_procesador_2 of procesador_2 is
 
+-- UC
+COMPONENT UC
+	PORT(
+		op : IN std_logic_vector(1 downto 0);
+		op3 : IN std_logic_vector(5 downto 0);          
+		salida : OUT std_logic_vector(5 downto 0)
+		);
+	END COMPONENT;
+
+	
 -- IM
 COMPONENT IM
 	PORT(
@@ -82,9 +92,16 @@ COMPONENT SUMADOR
 	
 -- señales del procesador
 signal SUMADOR_NPC, NPC_PC, PC_IM, IM_UC_RF_SEU : STD_LOGIC_VECTOR (31 downto 0);
+signal UC_ALU : STD_LOGIC_VECTOR (5 downto 0);
 
 
 begin
+-- UC
+Inst_UC: UC PORT MAP(
+		op => IM_UC_RF_SEU(31 downto 33),
+		op3 => IM_UC_RF_SEU(24 downto 19),
+		salida => UC_ALU
+	);
 -- IM
 Inst_IM: IM PORT MAP(
 		entrada => PC_IM,
