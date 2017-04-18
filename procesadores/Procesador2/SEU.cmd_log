@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador2/SEU.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador2/SEU.syr" 
+vhdtdtfi -prj Procesador2 -o E:/utp/Arquitectura_computadores/procesadores/Procesador2/SEU.vhi -module SEU -template E:/jgins/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work SEU.vhd 
