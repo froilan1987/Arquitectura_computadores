@@ -1,6 +1,7 @@
 AR mux behavioral E:/Usuario/Documentos/Xilinx/Procesador2/MUX.vhd sub00/vhpl17 1492325486
 EN seu NULL E:/Usuario/Documentos/Xilinx/Procesador2/SEU.vhd sub00/vhpl14 1492288587
 AR im behavioral E:/Usuario/Documentos/Xilinx/Procesador2/IM.vhd sub00/vhpl09 1492490919
+EN procesador_2 NULL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd sub00/vhpl18 1492493172
 AR npc behavioral E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd sub00/vhpl01 1491522877
 EN im NULL E:/Usuario/Documentos/Xilinx/Procesador2/IM.vhd sub00/vhpl08 1492490918
 AR seu behavioral E:/Usuario/Documentos/Xilinx/Procesador2/SEU.vhd sub00/vhpl15 1492288588

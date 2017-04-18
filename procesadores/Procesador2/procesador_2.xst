@@ -1,0 +1,5 @@
+set -tmpdir "E:/utp/Arquitectura_computadores/procesadores/Procesador2/xst/projnav.tmp"
+set -xsthdpdir "E:/utp/Arquitectura_computadores/procesadores/Procesador2/xst"
+elaborate
+-ifn procesador_2.prj
+-ifmt mixed
