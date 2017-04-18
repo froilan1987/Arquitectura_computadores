@@ -36,6 +36,18 @@ entity procesador_2 is
 end procesador_2;
 
 architecture arquitectura_procesador_2 of procesador_2 is
+
+-- NPC
+COMPONENT NPC
+	PORT(
+		ENTRADA : IN std_logic_vector(31 downto 0);
+		RST : IN std_logic;
+		CLK : IN std_logic;          
+		SALIDA : OUT std_logic_vector(31 downto 0)
+		);
+	END COMPONENT;
+
+	
 -- sumador
 COMPONENT SUMADOR
 	PORT(
@@ -51,6 +63,14 @@ signal SUMADOR_NPC, NPC_PC : STD_LOGIC_VECTOR (31 downto 0);
 
 
 begin
+
+-- NPC
+Inst_NPC: NPC PORT MAP(
+		ENTRADA => SUMADOR_NPC,
+		SALIDA => NPC_PC,
+		RST => rst,
+		CLK => clk
+	);
 --sumador
 Inst_SUMADOR: SUMADOR PORT MAP(
 		entrada1 => x"00000001",
