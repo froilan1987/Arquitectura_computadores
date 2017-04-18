@@ -2,3 +2,4 @@ xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.xst" -ofn 
 vhdtdtfi -lib work RF.vhd -prj Procesador1.1 -o RF.spl -module RF -template E:/jgins/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e RF.spl E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.sym 
 netgen -intstyle ise -ar Structure -tm RF -w -dir netgen/synthesis -ofmt vhdl -sim RF.ngc RF_synthesis.vhd 
+vhdtdtfi -prj Procesador2 -o E:/utp/Arquitectura_computadores/procesadores/Procesador2/RF.vhi -module RF -template E:/jgins/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work RF.vhd 
