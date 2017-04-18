@@ -37,6 +37,18 @@ end procesador_2;
 
 architecture arquitectura_procesador_2 of procesador_2 is
 
+-- pc
+	COMPONENT PC
+	PORT(
+		entrada : IN std_logic_vector(31 downto 0);
+		rst : IN std_logic;
+		clk : IN std_logic;          
+		salida : OUT std_logic_vector(31 downto 0)
+		);
+	END COMPONENT;
+
+	
+
 -- NPC
 COMPONENT NPC
 	PORT(
@@ -59,10 +71,19 @@ COMPONENT SUMADOR
 
 	
 -- señales del procesador
-signal SUMADOR_NPC, NPC_PC : STD_LOGIC_VECTOR (31 downto 0);
+signal SUMADOR_NPC, NPC_PC, PC_IM : STD_LOGIC_VECTOR (31 downto 0);
 
 
 begin
+
+-- pc
+Inst_PC: PC PORT MAP(
+		entrada => NPC_PC,
+		salida => PC_IM,
+		rst => rst,
+		clk => clk
+	);
+
 
 -- NPC
 Inst_NPC: NPC PORT MAP(
