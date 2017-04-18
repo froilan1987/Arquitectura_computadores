@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-04-18T00:01:42</DateModified>
+  <DateModified>2017-04-17T19:52:07</DateModified>
   <ModuleName>IM</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/Usuario/Documentos/Xilinx/Procesador2/iseconfig/IM.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Usuario/Documentos/Xilinx/Procesador2\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/utp/Arquitectura_computadores/procesadores/Procesador2/iseconfig/IM.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/utp/Arquitectura_computadores/procesadores/Procesador2\</ImplementationReportsDirectory>
   <DateInitialized>2017-04-15T14:12:58</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
