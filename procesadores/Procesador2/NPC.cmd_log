@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 NPC.ngc NPC.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o NPC_map.ncd NPC.ngd NPC.pcf 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador/NPC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 NPC.ngc NPC.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o NPC_map.ncd NPC.ngd NPC.pcf 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.syr" 

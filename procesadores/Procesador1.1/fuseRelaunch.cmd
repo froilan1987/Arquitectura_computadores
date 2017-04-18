@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Usuario/Documentos/Xilinx/Procesador1.1/P_ALU_isim_beh.exe" -prj "E:/Usuario/Documentos/Xilinx/Procesador1.1/P_ALU_beh.prj" "work.P_ALU" 

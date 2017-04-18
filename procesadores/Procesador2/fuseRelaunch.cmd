@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Usuario/Documentos/Xilinx/Procesador2/P_MUX_isim_beh.exe" -prj "E:/Usuario/Documentos/Xilinx/Procesador2/P_MUX_beh.prj" "work.P_MUX" 

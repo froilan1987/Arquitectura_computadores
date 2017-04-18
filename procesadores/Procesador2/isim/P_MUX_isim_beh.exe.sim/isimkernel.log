@@ -1,0 +1,29 @@
+Command line:
+   P_MUX_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  15725
+
+Sun Apr 16 01:54:04 2017
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 855.56 Meg
+
+ Total Signals          : 8
+ Total Nets             : 97
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 457
+Total Line Count : 12
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 383.644 Meg
+
+Sun Apr 16 01:56:55 2017
+

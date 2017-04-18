@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+netgen -intstyle ise -ar Structure -tm IM -w -dir netgen/synthesis -ofmt vhdl -sim IM.ngc IM_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 
+xst -intstyle ise -ifn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.xst" -ofn "E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.syr" 

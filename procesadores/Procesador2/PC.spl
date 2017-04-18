@@ -1,0 +1,7 @@
+[Inputs]
+rst
+clk
+=entrada[31:0]=
+[Outputs]
+=salida[31:0]=
+[BiDir]
