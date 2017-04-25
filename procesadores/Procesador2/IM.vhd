@@ -40,7 +40,7 @@ end IM;
 
 architecture Behavioral of IM is
 
-type rom_type is array (0 to 31) of std_logic_vector (31 downto 0);
+type rom_type is array (0 to 2) of std_logic_vector (31 downto 0); -- modifico tamaño vector
 impure function InitRomFromFile (RomFileName : in string) return rom_type is
 		FILE RomFile : text open read_mode is RomFileName;
 		variable RomFileLine : line;

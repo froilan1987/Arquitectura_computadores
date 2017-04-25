@@ -34,8 +34,8 @@ Compiling architecture behavioral of entity SUMADOR [sumador_default]
 Compiling architecture arquitectura_procesador_2 of entity procesador_2 [procesador_2_default]
 Compiling architecture behavior of entity p_procesador_2
 Time Resolution for simulation is 1ps.
-Waiting for 9 sub-compilation(s) to finish...
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 27 VHDL Units
 Built simulation executable E:/utp/Arquitectura_computadores/procesadores/Procesador2/P_PROCESADOR_2_isim_beh.exe
-Fuse Memory Usage: 35916 KB
-Fuse CPU Usage: 718 ms
+Fuse Memory Usage: 35704 KB
+Fuse CPU Usage: 686 ms
