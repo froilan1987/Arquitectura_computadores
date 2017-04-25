@@ -56,7 +56,7 @@ ARCHITECTURE behavior OF P_PROCESADOR_2 IS
    signal s_procesador_2 : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   constant clk_period : time := 20 ns;
  
 BEGIN
  
