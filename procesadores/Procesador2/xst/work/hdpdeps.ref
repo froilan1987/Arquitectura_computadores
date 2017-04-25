@@ -1,86 +1,75 @@
-V3 50
-FL E:/Usuario/Documentos/Xilinx/Procesador/NPC.vhd 2017/04/04.19:40:45 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/ALU.vhd 2017/04/15.02:41:36 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/IM.vhd 2017/04/15.14:34:21 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/NPC.vhd 2017/04/04.19:40:45 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/PC.vhd 2017/04/06.19:04:52 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/RF.vhd 2017/04/14.19:56:01 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/SUMADOR.vhd 2017/04/06.19:57:19 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador1.1/UC.vhd 2017/04/15.02:23:51 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador2/IM.vhd 2017/04/17.23:47:48 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador2/MUX.vhd 2017/04/16.01:41:38 P.20131013
-FL E:/Usuario/Documentos/Xilinx/Procesador2/SEU.vhd 2017/04/15.15:34:17 P.20131013
+V3 39
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd 2017/04/15.02:41:36 P.20131013
-EN work/ALU 1492563022 \
+EN work/ALU 1493097904 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
-AR work/ALU/Behavioral 1492563023 \
+AR work/ALU/Behavioral 1493097905 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/ALU.vhd \
-      EN work/ALU 1492563022
-FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/IM.vhd 2017/04/17.23:47:48 P.20131013
-EN work/IM 1492563032 \
+      EN work/ALU 1493097904
+FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/IM.vhd 2017/04/25.00:31:32 P.20131013
+EN work/IM 1493098299 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/IM.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB std/TEXTIO 1381692176
-AR work/IM/Behavioral 1492563033 \
+AR work/IM/Behavioral 1493098300 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/IM.vhd \
-      EN work/IM 1492563032
+      EN work/IM 1493098299
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/MUX.vhd 2017/04/16.01:41:38 P.20131013
-EN work/MUX 1492563026 \
+EN work/MUX 1493097908 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/MUX.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/MUX/Behavioral 1492563027 \
+AR work/MUX/Behavioral 1493097909 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/MUX.vhd \
-      EN work/MUX 1492563026
-FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/NPC.vhd 2017/04/04.19:40:45 P.20131013
-EN work/NPC 1492563036 \
+      EN work/MUX 1493097908
+FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/NPC.vhd 2017/04/25.00:16:09 P.20131013
+EN work/NPC 1493097918 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/NPC.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/NPC/Behavioral 1492563037 \
+AR work/NPC/Behavioral 1493097919 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/NPC.vhd \
-      EN work/NPC 1492563036
+      EN work/NPC 1493097918
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/PC.vhd 2017/04/06.19:04:52 P.20131013
-EN work/PC 1492563034 \
+EN work/PC 1493097916 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/PC.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/PC/Behavioral 1492563035 \
+AR work/PC/Behavioral 1493097917 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/PC.vhd \
-      EN work/PC 1492563034
-FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd 2017/04/18.01:42:51 P.20131013
-EN work/procesador_2 1492563040 \
+      EN work/PC 1493097916
+FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd 2017/04/25.00:16:09 P.20131013
+EN work/procesador_2 1493097922 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/procesador_2/arquitectura_procesador_2 1492563041 \
+AR work/procesador_2/arquitectura_procesador_2 1493097923 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/procesador_2.vhd \
-      EN work/procesador_2 1492563040 CP ALU CP SEU CP MUX CP RF CP UC CP IM CP PC \
+      EN work/procesador_2 1493097922 CP ALU CP SEU CP MUX CP RF CP UC CP IM CP PC \
       CP NPC CP SUMADOR
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/RF.vhd 2017/04/14.19:56:01 P.20131013
-EN work/RF 1492563028 \
+EN work/RF 1493097910 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/RF.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/RF/Behavioral 1492563029 \
+AR work/RF/Behavioral 1493097911 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/RF.vhd \
-      EN work/RF 1492563028
+      EN work/RF 1493097910
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/SEU.vhd 2017/04/15.15:39:24 P.20131013
-EN work/SEU 1492563024 \
+EN work/SEU 1493097906 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/SEU.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/SEU/Behavioral 1492563025 \
+AR work/SEU/Behavioral 1493097907 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/SEU.vhd \
-      EN work/SEU 1492563024
+      EN work/SEU 1493097906
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/SUMADOR.vhd 2017/04/06.19:57:19 P.20131013
-EN work/SUMADOR 1492563038 \
+EN work/SUMADOR 1493097920 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/SUMADOR.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/SUMADOR/Behavioral 1492563039 \
+AR work/SUMADOR/Behavioral 1493097921 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/SUMADOR.vhd \
-      EN work/SUMADOR 1492563038
+      EN work/SUMADOR 1493097920
 FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/UC.vhd 2017/04/15.02:23:51 P.20131013
-EN work/UC 1492563030 \
+EN work/UC 1493097912 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/UC.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/UC/Behavioral 1492563031 \
+AR work/UC/Behavioral 1493097913 \
       FL E:/utp/Arquitectura_computadores/procesadores/Procesador2/UC.vhd \
-      EN work/UC 1492563030
+      EN work/UC 1493097912
