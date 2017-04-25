@@ -120,8 +120,8 @@ COMPONENT IM
 COMPONENT NPC
 	PORT(
 		ENTRADA : IN std_logic_vector(31 downto 0);
-		RST : IN std_logic;
-		CLK : IN std_logic;          
+		rst : IN std_logic;
+		clk : IN std_logic;          
 		SALIDA : OUT std_logic_vector(31 downto 0)
 		);
 	END COMPONENT;
@@ -203,8 +203,8 @@ Inst_PC: PC PORT MAP(
 Inst_NPC: NPC PORT MAP(
 		ENTRADA => SUMADOR_NPC,
 		SALIDA => NPC_PC,
-		RST => rst,
-		CLK => clk
+		rst => rst,
+		clk => clk
 	);
 --sumador
 Inst_SUMADOR: SUMADOR PORT MAP(
