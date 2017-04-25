@@ -31,4 +31,7 @@ at 0 ps, Instance /p_procesador_2/uut/Inst_RF/ : Warning: CONV_INTEGER: There is
 at 0 ps, Instance /p_procesador_2/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 at 0 ps, Instance /p_procesador_2/uut/Inst_IM/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
-# run 20us
+ERROR: Index 3 out of bound 0 to 2. 
+ERROR: In process IM.vhd:64 
+ 
+INFO: Simulator is stopped.
