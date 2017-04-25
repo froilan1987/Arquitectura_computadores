@@ -43,22 +43,22 @@ ARCHITECTURE behavior OF NPCTB IS
     PORT(
          ENTRADA : IN  std_logic_vector(31 downto 0);
          SALIDA : OUT  std_logic_vector(31 downto 0);
-         RST : IN  std_logic;
-         CLK : IN  std_logic
+         rst : IN  std_logic;
+         clk : IN  std_logic
         );
     END COMPONENT;
     
 
    --Inputs
    signal ENTRADA : std_logic_vector(31 downto 0) := (others => '0');
-   signal RST : std_logic := '0';
-   signal CLK : std_logic := '0';
+   signal rst : std_logic := '0';
+   signal clk : std_logic := '0';
 
  	--Outputs
    signal SALIDA : std_logic_vector(31 downto 0);
 
    -- Clock period definitions
-   constant CLK_period : time := 20 ns;
+   constant clk_period : time := 20 ns;
  
 BEGIN
  
@@ -66,27 +66,27 @@ BEGIN
    uut: NPC PORT MAP (
           ENTRADA => ENTRADA,
           SALIDA => SALIDA,
-          RST => RST,
-          CLK => CLK
+          rst => rst,
+          clk => clk
         );
 
    -- Clock process definitions
-   CLK_process :process
+   clk_process :process
    begin
-		CLK <= '0';
-		wait for CLK_period/2;
-		CLK <= '1';
-		wait for CLK_period/2;
+		clk <= '0';
+		wait for clk_period/2;
+		clk <= '1';
+		wait for clk_period/2;
    end process;
  
 
    -- Stimulus process
    stim_proc: process
    begin		
-		RST <= '1';
+		rst <= '1';
       -- hold reset state for 100 ns.
       wait for 100 ns;
-		RST <= '0';
+		rst <= '0';
 		ENTRADA <= x"00000001"; 
       wait for 100 ns;
 		ENTRADA <= x"00000010";

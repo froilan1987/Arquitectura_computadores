@@ -32,19 +32,19 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity NPC is
     Port ( ENTRADA : in  STD_LOGIC_VECTOR (31 downto 0);
            SALIDA : out  STD_LOGIC_VECTOR (31 downto 0);
-           RST : in  STD_LOGIC;
-           CLK : in  STD_LOGIC);
+           rst : in  STD_LOGIC;
+           clk : in  STD_LOGIC);
 end NPC;
 
 architecture Behavioral of NPC is
 
 	begin
-		process(CLK, ENTRADA, RST) -- se activa
+		process(clk, ENTRADA, rst) -- se activa
 			begin
-				if(RST = '1')then
+				if(rst = '1')then
 					SALIDA <= x"00000000";
 				else
-					if(rising_edge(CLK))then
+					if(rising_edge(clk))then
 						SALIDA <= ENTRADA;
 					end if;
 				end if;
